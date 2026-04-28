@@ -9,8 +9,8 @@ int main(void) {
     printf("+--------------------------------+\n");
     printf("|       FICHE D'IDENTITE         |\n");
     printf("+--------------------------------+\n");
-    printf("| Prenom  : %-20s                |\n", prenom);
-    printf("| Age     : %-2d ans             |\n", age);
+    printf("| Prenom  : %-20s |\n", prenom);
+    printf("| Age     : %-2d ans               |\n", age);
     printf("| Taille  : %.2f m               |\n", taille);
     printf("| Initiale: %-20c |\n", initiale);
     printf("+--------------------------------+\n");
